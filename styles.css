@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     font-family: "Bilbo", cursive;
+  font-weight: 400;
+  font-style: normal;
+    background-image: url('https://images3.alphacoders.com/132/1329171.png');
+    background-size: cover;
+    color: #fff;
+    margin: 0; /* Remove default margin */
+}
+
+.quest-counter {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	  font-family: "Bilbo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+	  font-family: "Bilbo", cursive;
+  font-weight: 400;
+  font-style: normal;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+	  font-family: "Bilbo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
